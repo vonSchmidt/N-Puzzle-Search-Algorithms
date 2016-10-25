@@ -11,8 +11,8 @@
 
 ##Available Heuristics Estimates
 In order to run informed search algorithms, we use the following estimates:
-	* Simple N-Puzzle Heuristic: Estimate the distance to the goal by computing
-	  the number of misplaced tiles.
-	* Manhattan Distance Heuristic: Estimate the distance to the goal by
-	  computing the amount of steps needed to move a tile to its correct
-	  position, considering there are no obstacles in the process of doing so.
+* Simple N-Puzzle Heuristic
+	Estimate the distance to the goal by computing the number of misplaced tiles.
+
+* Manhattan Distance Heuristic
+	Estimate the distance to the goal by computing the amount of steps needed to move a tile to its correct position, considering there are no obstacles in the process of doing so.
